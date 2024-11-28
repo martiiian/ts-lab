@@ -1,0 +1,19 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "martiiian",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
