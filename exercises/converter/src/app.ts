@@ -1,7 +1,10 @@
+import {PromptService} from "./core/prompt/prompt.service";
+
 export class App {
-  run() {
+  async run() {
+    const res = await (new PromptService()).input<number>('Число', 'number')
     // eslint-disable-next-line no-console
-    console.log('Done')
+    console.log('res', res);
   }
 }
 
